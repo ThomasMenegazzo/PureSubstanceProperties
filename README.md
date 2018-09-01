@@ -15,5 +15,6 @@ Para utilizar, basta rodar o arquivo executável. Alternativamente, pode ser ger
 
 Próximos passos:
 - Criar Makefile genérica
+- Incluir unidades na versão de console
 - Adicionar GUI ao repositório
 - Refacturing
