@@ -2,7 +2,7 @@
 Cálculo de propriedades termodinâmicas de substâncias puras
 
 Este programa utiliza a formulação IAPWS-95 para calcular propriedades termodinâmicas de certas substâncias puras.
-**Substâncias disponíveis para calculo:**
+**Substâncias disponíveis para cálculo:**
 - Água
 - Dióxido de Carbono
 - Metano
