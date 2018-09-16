@@ -11,10 +11,11 @@ Este programa utiliza a formulação IAPWS-95 para calcular propriedades termodi
 - n-Butano
 - Nitrogênio
 
-Para utilizar, basta rodar o arquivo executável. Alternativamente, pode ser gerado um novo projeto utilizando "Dev-C++". Para adicionar novas substanciâs, basta criar uma nova herança em CHelmHoltzAgua.h, adicionar os coeficientesda equação em um novo .cpp, e incluir isto na função construtora de CSimuladorPropriedades.
+Para utilizar, basta baixar o repositório, abrir o console e usar `make` para compilar o programa. O executável `main` será criado na pasta bin, basta executar ele. Para adicionar novas substâncias, basta criar uma nova classe herdeira de CHelmholtz com os coeficientes da equação, e incluir isto na função construtora de CSimuladorPropriedades.
 
 Próximos passos:
-- Criar Makefile genérica
-- Incluir unidades na versão de console
 - Adicionar GUI ao repositório
 - Refacturing
+
+**Bugs**
+- Entalpia/Entropia/Gibbs/U. para CO2 e isoButano estao com valores/unidades errados
